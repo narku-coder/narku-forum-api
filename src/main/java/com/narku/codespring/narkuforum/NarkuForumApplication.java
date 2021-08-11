@@ -16,8 +16,8 @@ public class NarkuForumApplication {
 	
         @RequestMapping("/")
         @ResponseBody
-       String home() {
-                 return "Hello World!";
+        String home() {
+                return "Hello World!";
         }
 
 	public static void main(String[] args) {

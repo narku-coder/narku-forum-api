@@ -13,6 +13,12 @@ import java.util.Arrays;
 @SpringBootApplication
 @EnableAutoConfiguration
 public class NarkuForumApplication {
+	
+	@RequestMapping("/")
+  @ResponseBody
+  String home() {
+     return "Hello World!";
+  }
 
 	public static void main(String[] args) {
 		SpringApplication.run(NarkuForumApplication.class, args);

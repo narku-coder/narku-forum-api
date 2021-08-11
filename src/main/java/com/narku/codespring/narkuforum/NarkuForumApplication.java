@@ -14,11 +14,11 @@ import java.util.Arrays;
 @EnableAutoConfiguration
 public class NarkuForumApplication {
 	
-	@RequestMapping("/")
-  @ResponseBody
-  String home() {
-     return "Hello World!";
-  }
+        @RequestMapping("/")
+        @ResponseBody
+       String home() {
+                 return "Hello World!";
+        }
 
 	public static void main(String[] args) {
 		SpringApplication.run(NarkuForumApplication.class, args);
